@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -24,6 +24,11 @@ ul  {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #000;
+}
+
+span {
+    margin-right: 4px; 
+    display:inline-block;
 }
 
 .bold {
@@ -57,7 +62,19 @@ a, p {
     border: 15px white;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 3px 2px 2px black}
+    box-shadow: 3px 2px 2px black;
+}
+.legenda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border: 15px white;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 2px 2px black;
+
+ }
 
 .receitas .step {
         display: block;
@@ -68,3 +85,20 @@ a, p {
         padding: 50px;
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 3px 2px 2px black}
+
+footer {
+    background-color: #fff;
+    padding: 8px;
+    margin-top: 50px;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    justify-content: right;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 4px; 
+
+}
