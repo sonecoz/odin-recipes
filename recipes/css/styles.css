@@ -1,0 +1,70 @@
+header{
+    background-color: rgba(209, 123, 12, 0.767);
+    box-shadow: 3px 2px 2px black;
+}
+
+body {
+    background-color: rgba(250, 162, 46, 0.788);
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a, p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    color: #000;
+}
+
+#step{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#capa {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.receitas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 15px white;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 2px 2px black}
+
+.receitas .step {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 500px;
+        border: 15px white;
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 3px 2px 2px black}
