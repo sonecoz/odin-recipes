@@ -1,0 +1,39 @@
+header{
+    background-color: rgba(236, 145, 26, 0.767);
+    box-shadow: 3px 2px 2px black;
+}
+
+body {
+    background-color: rgba(206, 132, 36, 0.788);
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    color: #000;
+}
+
+#capa {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.receitas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 15px white;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 2px 2px black}
